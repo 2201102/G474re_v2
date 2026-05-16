@@ -58,7 +58,7 @@
     "integration_disabled": false,
     "repo_type": "ssh",
     "repo_username": "git",
-    "ssh_key": ""
+    "ssh_key": "C:\\Users\\ss220\\.ssh\\id_ed25519"
   },
   "meta": {
     "filename": "G474re_testboard_v2.kicad_prl",
