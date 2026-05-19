@@ -41353,15 +41353,6 @@
 		(uuid "2595d176-eeb9-41dc-ab73-fcd157d8717c")
 	)
 	(via
-		(at 116 100.31)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net "GND")
-		(uuid "25c6e26c-098a-4df0-b571-c5dcafbe06b6")
-	)
-	(via
 		(at 66 137.81)
 		(size 0.6)
 		(drill 0.3)
