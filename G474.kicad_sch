@@ -3858,12 +3858,6 @@
 		(uuid "59076f01-aa95-4b54-9af7-90dfb11d4785")
 	)
 	(junction
-		(at 179.07 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c826af9-25d8-45df-8729-727b5511c7c7")
-	)
-	(junction
 		(at 257.81 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4293,7 +4287,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 115.57) (xy 179.07 115.57)
+			(xy 176.53 115.57) (xy 185.42 115.57)
 		)
 		(stroke
 			(width 0)
@@ -4630,16 +4624,6 @@
 			(type default)
 		)
 		(uuid "f709b84f-8275-4478-8c37-2cc475cdccde")
-	)
-	(wire
-		(pts
-			(xy 179.07 115.57) (xy 185.42 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc1bf7c5-7c26-4f04-9cbd-7341cd6931a3")
 	)
 	(wire
 		(pts
@@ -5861,121 +5845,6 @@
 			(project "G474re_testboard_v2"
 				(path "/6701889f-a5e5-428d-8ee0-a9bdb287356c/6eeac764-06a5-469f-a340-9ffecc363115"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 179.07 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0de805ba-d840-44df-b12c-61bc87ba083a")
-		(property "Reference" "R8"
-			(at 181.61 118.1099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 181.61 120.6499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 177.292 119.38 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S3.3" ""
-			(at 179.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "KLC_S4.1" ""
-			(at 179.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" " C25804"
-			(at 179.07 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "afe800d5-cdc1-4d83-b9f7-6a5dbc996507")
-		)
-		(pin "2"
-			(uuid "d0489468-847d-415a-bb8f-a18acc4ee452")
-		)
-		(instances
-			(project "G474re_testboard_v2"
-				(path "/6701889f-a5e5-428d-8ee0-a9bdb287356c/6eeac764-06a5-469f-a340-9ffecc363115"
-					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8797,84 +8666,6 @@
 			(project "G474re_testboard_v2"
 				(path "/6701889f-a5e5-428d-8ee0-a9bdb287356c/6eeac764-06a5-469f-a340-9ffecc363115"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 179.07 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6588b8c-1480-4797-8d56-b90d74eaff32")
-		(property "Reference" "#PWR087"
-			(at 179.07 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 179.07 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "64e16911-97da-4f1d-b835-103bb0648032")
-		)
-		(instances
-			(project "G474re_testboard_v2"
-				(path "/6701889f-a5e5-428d-8ee0-a9bdb287356c/6eeac764-06a5-469f-a340-9ffecc363115"
-					(reference "#PWR087")
 					(unit 1)
 				)
 			)
