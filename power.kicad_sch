@@ -1981,22 +1981,16 @@
 		(uuid "05e85249-49be-4c6d-94a5-8733cb6d62bc")
 	)
 	(junction
+		(at 52.07 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21ce383b-8a71-45c4-b83e-20bcf60e291e")
+	)
+	(junction
 		(at 52.07 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e9a8907-247d-4f39-9086-e35b68cdb13f")
-	)
-	(junction
-		(at 40.64 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a979c5b-45fa-422b-a03e-ed4a50f08255")
-	)
-	(junction
-		(at 52.07 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "939b72f1-4221-48ba-a249-269ab1fa20fc")
 	)
 	(junction
 		(at 24.13 33.02)
@@ -2005,20 +1999,26 @@
 		(uuid "b13e47bf-3edd-4556-beb7-792cd7171795")
 	)
 	(junction
-		(at 24.13 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cdfa7b88-9705-4b01-a240-3c88dad3e335")
-	)
-	(junction
 		(at 29.21 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddc2dd34-d6e5-466c-bfd3-6a253ffa542b")
 	)
+	(junction
+		(at 39.37 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7520161-10ee-47c3-ae14-00fb7612d605")
+	)
+	(junction
+		(at 24.13 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f7f9301f-9a18-4083-a412-f6499c0fad1f")
+	)
 	(wire
 		(pts
-			(xy 40.64 76.2) (xy 40.64 77.47)
+			(xy 39.37 76.2) (xy 39.37 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2028,7 +2028,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 74.93) (xy 40.64 76.2)
+			(xy 39.37 74.93) (xy 39.37 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2055,16 +2055,6 @@
 			(type default)
 		)
 		(uuid "1207a755-76ba-4739-9259-d6def2f49e02")
-	)
-	(wire
-		(pts
-			(xy 40.64 76.2) (xy 52.07 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bfc27af-d85d-4f90-ad51-8b12a448e171")
 	)
 	(wire
 		(pts
@@ -2108,6 +2098,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 76.2) (xy 52.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "626fc8f1-84ea-4bce-ad71-25db8c40f4bc")
+	)
+	(wire
+		(pts
 			(xy 45.72 33.02) (xy 46.99 33.02)
 		)
 		(stroke
@@ -2128,7 +2128,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 67.31) (xy 52.07 67.31)
+			(xy 46.99 67.31) (xy 52.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2228,7 +2228,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 67.31) (xy 33.02 67.31)
+			(xy 24.13 67.31) (xy 31.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2258,7 +2258,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 76.2) (xy 40.64 76.2)
+			(xy 24.13 76.2) (xy 39.37 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2423,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:AMS1117-3.3")
-		(at 40.64 67.31 0)
+		(at 39.37 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2434,7 +2434,7 @@
 		(fields_autoplaced yes)
 		(uuid "09419f51-eb1b-4690-9c45-71b25df279c6")
 		(property "Reference" "U3"
-			(at 40.64 60.96 0)
+			(at 39.37 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2444,7 +2444,7 @@
 			)
 		)
 		(property "Value" "AMS1117-3.3"
-			(at 40.64 63.5 0)
+			(at 39.37 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2454,7 +2454,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 40.64 62.23 0)
+			(at 39.37 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2465,7 +2465,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
-			(at 43.18 73.66 0)
+			(at 41.91 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2476,7 +2476,7 @@
 			)
 		)
 		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
-			(at 40.64 67.31 0)
+			(at 39.37 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2487,7 @@
 			)
 		)
 		(property "KLC_S3.3" ""
-			(at 40.64 67.31 0)
+			(at 39.37 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2498,7 @@
 			)
 		)
 		(property "KLC_S4.1" ""
-			(at 40.64 67.31 0)
+			(at 39.37 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2509,7 +2509,7 @@
 			)
 		)
 		(property "LCSC" "C6186"
-			(at 40.64 67.31 0)
+			(at 39.37 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4716,7 +4716,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 40.64 77.47 0)
+		(at 39.37 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4727,7 +4727,7 @@
 		(fields_autoplaced yes)
 		(uuid "f4110256-804f-458a-9cb5-718fefa6a434")
 		(property "Reference" "#PWR024"
-			(at 40.64 83.82 0)
+			(at 39.37 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4738,7 +4738,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 82.55 0)
+			(at 39.37 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4748,7 +4748,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 77.47 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +4759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 77.47 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4770,7 +4770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 40.64 77.47 0)
+			(at 39.37 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
